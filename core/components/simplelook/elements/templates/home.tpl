@@ -1,0 +1,1 @@
+<div id="simplelook-panel-home-div"></div>

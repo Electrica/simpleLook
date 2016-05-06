@@ -3,8 +3,8 @@
 $plugins = array();
 
 $tmp = array(/*
-	'modExtra' => array(
-		'file' => 'modextra',
+	'simpleLook' => array(
+		'file' => 'simplelook',
 		'description' => '',
 		'events' => array(
 			'OnManagerPageInit' => array()
