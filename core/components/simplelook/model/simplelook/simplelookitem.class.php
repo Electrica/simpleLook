@@ -1,7 +1,2 @@
 <?php
-
-/**
- * @package simplelook
- */
-class simpleLookItem extends xPDOSimpleObject {
-}
+class simpleLookItem extends xPDOSimpleObject {}

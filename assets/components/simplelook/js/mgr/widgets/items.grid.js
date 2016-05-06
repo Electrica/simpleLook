@@ -192,21 +192,10 @@ Ext.extend(simpleLook.grid.Items, MODx.grid.Grid, {
 			sortable: true,
 			width: 70
 		}, {
-			header: _('simplelook_item_name'),
-			dataIndex: 'name',
+			header: _('simplelook_id_user'),
+			dataIndex: 'id_user',
 			sortable: true,
 			width: 200,
-		}, {
-			header: _('simplelook_item_description'),
-			dataIndex: 'description',
-			sortable: false,
-			width: 250,
-		}, {
-			header: _('simplelook_item_active'),
-			dataIndex: 'active',
-			renderer: simpleLook.utils.renderBoolean,
-			sortable: true,
-			width: 100,
 		}, {
 			header: _('simplelook_grid_actions'),
 			dataIndex: 'actions',

@@ -14,12 +14,15 @@ class simpleLookItemCreateProcessor extends modObjectCreateProcessor {
 	 * @return bool
 	 */
 	public function beforeSet() {
-		$name = trim($this->getProperty('name'));
+		$id_user = trim($this->getProperty('id_user'));
+
+        $this->modx->log(1, $id_user);
+
 		if (empty($name)) {
-			$this->modx->error->addField('name', $this->modx->lexicon('simplelook_item_err_name'));
+			$this->modx->error->addField('id_user', $this->modx->lexicon('simplelook_item_err_name'));
 		}
-		elseif ($this->modx->getCount($this->classKey, array('name' => $name))) {
-			$this->modx->error->addField('name', $this->modx->lexicon('simplelook_item_err_ae'));
+		elseif ($this->modx->getCount($this->classKey, array('id_user' => $id_user))) {
+			$this->modx->error->addField('id_user', $this->modx->lexicon('simplelook_item_err_ae'));
 		}
 
 		return parent::beforeSet();

@@ -2,13 +2,20 @@
 
 $settings = array();
 
-$tmp = array(/*
-	'some_setting' => array(
-		'xtype' => 'combo-boolean',
-		'value' => true,
-		'area' => 'simplelook_main',
-	),
-	*/
+$tmp = array(
+    'assets_path' => array(
+        'xtype' => 'textfield',
+        'value' => '{base_path}simpleLook/assets/components/simplelook/'
+    ),
+    'assets_url' => array(
+        'xtype' => 'textfield',
+        'value' => '/simpleLook/assets/components/simplemodal/'
+    ),
+    'core_path' => array(
+        'xtype' => 'textfield',
+        'value' => '{base_path}simpleLook/core/components/simplelook/'
+    )
+
 );
 
 foreach ($tmp as $k => $v) {

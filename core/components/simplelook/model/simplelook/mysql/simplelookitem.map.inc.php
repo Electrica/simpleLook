@@ -6,26 +6,18 @@ $xpdo_meta_map['simpleLookItem']= array (
   'extends' => 'xPDOSimpleObject',
   'fields' => 
   array (
-    'name' => '',
-    'description' => '',
+    'id_user' => 0,
     'active' => 1,
   ),
   'fieldMeta' => 
   array (
-    'name' => 
+    'id_user' => 
     array (
-      'dbtype' => 'varchar',
-      'precision' => '100',
-      'phptype' => 'string',
+      'dbtype' => 'int',
+      'precision' => '10',
+      'phptype' => 'int',
       'null' => false,
-      'default' => '',
-    ),
-    'description' => 
-    array (
-      'dbtype' => 'text',
-      'phptype' => 'text',
-      'null' => true,
-      'default' => '',
+      'default' => 0,
     ),
     'active' => 
     array (
@@ -38,15 +30,15 @@ $xpdo_meta_map['simpleLookItem']= array (
   ),
   'indexes' => 
   array (
-    'name' => 
+    'id_user' => 
     array (
-      'alias' => 'name',
+      'alias' => 'id_user',
       'primary' => false,
       'unique' => false,
       'type' => 'BTREE',
       'columns' => 
       array (
-        'name' => 
+        'id_user' => 
         array (
           'length' => '',
           'collation' => 'A',

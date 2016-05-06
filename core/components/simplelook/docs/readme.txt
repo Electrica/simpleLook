@@ -1,7 +1,7 @@
 --------------------
 simpleLook
 --------------------
-Author: John Doe <john@doe.com>
+Author: Electrica
 --------------------
 
 A basic Extra for MODx Revolution.

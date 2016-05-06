@@ -22,25 +22,11 @@ Ext.extend(simpleLook.window.CreateItem, MODx.Window, {
 
 	getFields: function (config) {
 		return [{
-			xtype: 'textfield',
-			fieldLabel: _('simplelook_item_name'),
-			name: 'name',
-			id: config.id + '-name',
+			xtype: 'modx-combo-user',
+			fieldLabel: _('simplelook_id_user'),
+			name: 'id_user',
 			anchor: '99%',
-			allowBlank: false,
-		}, {
-			xtype: 'textarea',
-			fieldLabel: _('simplelook_item_description'),
-			name: 'description',
-			id: config.id + '-description',
-			height: 150,
-			anchor: '99%'
-		}, {
-			xtype: 'xcheckbox',
-			boxLabel: _('simplelook_item_active'),
-			name: 'active',
-			id: config.id + '-active',
-			checked: true,
+			allowBlank: false
 		}];
 	},
 
