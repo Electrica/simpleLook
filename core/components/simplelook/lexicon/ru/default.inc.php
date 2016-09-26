@@ -5,7 +5,7 @@ $_lang['simplelook'] = 'simpleLook';
 $_lang['simplelook_menu_desc'] = 'Открыть доступ на фронтенд при закрытом сайте.';
 $_lang['simplelook_intro_msg'] = 'Вы можете выделять сразу несколько предметов при помощи Shift или Ctrl.';
 
-$_lang['simplelook_items'] = 'Предметы';
+$_lang['simplelook_items'] = 'Пользователи';
 $_lang['simplelook_item_id'] = 'Id';
 $_lang['simplelook_id_user'] = 'Пользователь';
 $_lang['simplelook_item_description'] = 'Описание';
